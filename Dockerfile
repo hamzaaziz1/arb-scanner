@@ -8,4 +8,4 @@ WORKDIR /app
 ENV NODE_ENV=production
 COPY --from=builder /app/src ./src
 COPY --from=builder /app/package.json ./
-CMD ["node", "src/index.js"]
+CMD ["node", "src/entrypoint.js"]
