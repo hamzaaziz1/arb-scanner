@@ -1,0 +1,12 @@
+{
+  "name": "arb-scanner",
+  "version": "1.0.0",
+  "description": "Cross-chain DEX arbitrage scanner",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/index.js"
+  },
+  "keywords": ["blockchain", "arbitrage", "dex", "docker"],
+  "license": "MIT"
+}
