@@ -3,7 +3,7 @@ const CONFIG = {
   apiBaseUrl: 'https://api.dexpaprika.com',
   // Minimum price spread percentage to flag as an opportunity
   minSpreadPercent: 0.01,
-  // Tokens to track with their contract addresses on each chain
+  // Token to track with their contract addresses on each chain
   tokens: [
     {
       symbol: 'WETH',
